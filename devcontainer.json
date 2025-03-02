@@ -1,0 +1,9 @@
+{
+    "name": "Ubuntu Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [5432, 8000],
+    "customizations": {
+
+    },
+    "postCreateCommand": "echo 'Среда готова!'"
+}
